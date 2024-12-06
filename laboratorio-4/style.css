@@ -1,0 +1,116 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #333;
+    font-family: 'Verdana', sans-serif;
+}
+
+header, section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 900px;
+}
+
+h1 {
+    text-align: center;
+    color: #1E90FF;
+}
+
+p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+a.mi-perfil {
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #1E90FF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a.mi-perfil:hover {
+    background-color: #00BFFF;
+}
+
+.foto-perfil img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 20px 0;
+}
+
+/* Listas */
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Formulario */
+.formulario form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00BFFF;
+}
